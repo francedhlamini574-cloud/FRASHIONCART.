@@ -141,3 +141,181 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# ==========================================================
+# FrashionCart S.A.
+# Professional .gitignore
+# Next.js + TypeScript + Tailwind + Supabase
+# ==========================================================
+
+##############################
+# Dependencies
+##############################
+
+node_modules/
+jspm_packages/
+bower_components/
+
+##############################
+# Next.js
+##############################
+
+.next/
+out/
+.vercel/
+
+##############################
+# Build
+##############################
+
+dist/
+build/
+coverage/
+
+##############################
+# Logs
+##############################
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+##############################
+# Environment Variables
+##############################
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+##############################
+# Supabase
+##############################
+
+.supabase/
+supabase/.temp/
+supabase/.branches/
+
+##############################
+# Database
+##############################
+
+*.sqlite
+*.sqlite3
+*.db
+
+##############################
+# Cache
+##############################
+
+.cache/
+.eslintcache
+.stylelintcache
+
+##############################
+# Testing
+##############################
+
+playwright-report/
+test-results/
+coverage/
+
+##############################
+# TypeScript
+##############################
+
+*.tsbuildinfo
+
+##############################
+# IDE
+##############################
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.idea/
+
+##############################
+# OS Files
+##############################
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+##############################
+# Temporary Files
+##############################
+
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*~
+
+##############################
+# Package Managers
+##############################
+
+.pnpm-store/
+.npm/
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+##############################
+# TurboRepo
+##############################
+
+.turbo/
+
+##############################
+# Miscellaneous
+##############################
+
+*.pem
+*.key
+*.crt
+
+##############################
+# Local Configuration
+##############################
+
+.local/
+config.local.*
+
+##############################
+# Docker
+##############################
+
+docker-compose.override.yml
+
+##############################
+# Optional Uploads
+##############################
+
+uploads/
+public/uploads/
+
+##############################
+# Generated Files
+##############################
+
+*.pid
+*.seed
+
+##############################
+# Editor Backup Files
+##############################
+
+.history/
